@@ -1,0 +1,43 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#calltoaction{
+  background: rgba(0, 0, 0, 0.5) url('files/washing clothes.png') ;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+
+.pricing{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#p1, #p2, #p3{
+  width: 300px;
+  /* height: 300px; */
+}
+
+#p1:hover, #p2:hover, #p3:hover{
+  transform: scale(1.1);
+}
+
+
+#f1, #f2, #f3{
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  background-color: black;
+  
+}
+
+@media screen and (width<=600px) {
+  
+}
