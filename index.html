@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="resp.css">
+  <link rel="icon" type="image/icon" href="files/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/04a641dbe2.js" crossorigin="anonymous"></script>
   </head>
   <title>Laundry
@@ -17,7 +19,7 @@
     <span class="mx-2">Services available 24/7</span>
   </div>
 
-  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: rgb(205, 250, 250);">
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: rgb(63, 175, 250);">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="files/logo.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +31,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -43,7 +45,7 @@
   </nav>
 
   <section id='calltoaction' class="text-light p-5">
-    <div class="container text-center p-2">
+    <div class="container text-center p-2 my-sm-5">
       <h1>Best Laundry Services Available in Jaipur</h1>
       <p class="mx-2">Affordable and relaiable laundry services serving for 10+ years with proven good customer experience. Choose us today!!</p>
       <button class="btn btn-primary " onclick="location.href='#pricing';" >Explore Plans</button>
@@ -51,57 +53,104 @@
     </div>
   </section>
 
-  <section class="my-4 text-center">
-    <h2>why choose us</h2>
-    <div id="features" class="container mb-3">
-      <div class="p-2 text-center">
-          <h5>Laundry</h5>
-          <div id="f1" class="p-2 d-flex flex-row">
-          <img src="files/lady.webp" style="width: 200px; height: 200px;"/>
-          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto aiores nemo odio? 
-          </p>
-          </div>
-        </div>
-        <div class="p-2">
-          <h5>Laundry</h5>
-          <div id="f2" class="p-2 d-flex flex-row-reverse">
-            <img src="files/Screenshot (269).png" style="height:200px; width:300px;"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto maiores nemo odio?</p>
-          </div>
-        </div>
-        <div  class="p-2">
-          <h5>Laundry</h5>
-          <div id="f3" class="
-          p-2 d-flex flex-row">
-            <img src="files/lady with.jpg" style="width: 300px; height:200px;"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto maiores nemo odio?</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-  <section id="pricing" class="container my-4 text-center">
+  <section id="pricing" class="my-4 container text-center">
     <h2>Pricing</h2>
     <div class="pricing my-4">
-      <div id="p1" class="shadow p-4 bg-primary "style="border-radius: 20px;" >
+      <div id="p1" class="shadow p-4  "style="border-radius: 20px;" >
+        <h5>preimum</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in nobis fugit accusamus tempora? Itaque
+       </p>
+        <button class="p-btn mb-2" onclick="location.href = 'tel:9521686472'">Know More</button>
+      </div>
+      <div id="p2" class="shadow p-4 " style="border-radius: 20px;">
         <h5>preimum</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in nobis fugit accusamus tempora? Itaque </p>
-        <button class="btn btn-dark mb-2" onclick="location.href = 'tel:9521686472'">Choose now</button>
-      </div>
-      <div id="p2" class="shadow p-4 bg-primary" style="border-radius: 20px;">
-        <h5>preimum</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in nobis fugit accusamus tempora? Itaque expedita commodi eligendi voluptatum, dolorem deserunt sit beatae reiciendis minima at consequuntur quisquam, molestias quis.</p>
-        <button class="btn btn-dark mb-2">Choose now</button>
+        <button class="p-btn mb-2" onclick="location.href = 'tel:9521686472'">Know More</button>
         
       </div>
-      <div id="p3" class="bg-primary shadow p-4" style="border-radius: 20px;">
+      <div id="p3" class="shadow p-4" style="border-radius: 20px;">
         <h5>preimum</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in nobis fugit accusamus tempora? Itaque expedita commodi eligendi voluptatum, dolorem deserunt sit beatae reiciendis minima at consequuntur quisquam, molestias quis.</p>
-        <button class="btn btn-dark mb-2">Choose now</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in nobis fugit accusamus tempora? Itaque </p>
+        <button class="p-btn mb-2" onclick="location.href = 'tel:9521686472'">Know More</button>
       </div>
     </div>
 
   </section>
+
+  <section id="services" class="container my-4 text-center">
+    <h2>Services</h2>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="files/ironing.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h3>Ironing</h3>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="files/dry-cleaning.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h3>Dry cleaning</h3>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="files/trained-staff.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+          <h2>Woolen clothes wash</h2>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="my-4 text-center">
+    <h2>Why us ?</h2>
+    <div id="features" class="container mb-3">
+      <div class="p-2 text-center">
+          <h5>Best customer experience</h5>
+          <div id="f1" class="p-2 d-flex">
+          <img src="files/lady.webp" style="width: 200px; height: 200px;
+          border-radius: 20px;"/>
+          <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto aiores nemo odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto aiores nemo odio? 
+          </p>
+          </div>
+        </div>
+        <div class="p-2">
+          <h5>Trained staff</h5>
+          <div id="f2" class="p-2 d-flex reverse">
+            <img src="files/trained-staff.png" style="height:200px; width:300px;
+            border-radius: 20px;"/>
+            <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto maiores nemo odio?</p>
+          </div>
+        </div>
+        <div  class="p-2">
+          <h5>Proper handelling</h5>
+          <div id="f3" class="
+          p-2 d-flex ">
+            <img src="files/Screenshot (269).png" style="width: 300px; height:200px;
+            border-radius: 20px;"/>
+            <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto maiores nemo odio?</p>
+          </div>
+        </div>
+        <div  class="p-2">
+          <h5>Customized care</h5>
+          <div id="f3" class="
+          p-2 d-flex reverse">
+            <img src="files/laundry-services.png" style="width: 300px; height:200px; border-radius: 20px;"/>
+            <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sint neque vel harum animi voluptas quia odit error voluptatum illo beatae nisi exercitationem blanditiis aperiam totam aut debitis, officiis, aliquam iusto maiores nemo odio?</p>
+          </div>
+        </div>
+      </div>
+    </section>
   
   <section id="about" class="container my-4 text-center">
     <h2>About Us</h2>
@@ -114,7 +163,7 @@
     <h2>Contact us</h2>
     <div class="d-flex flex-column my-3 container">
       <div>
-        <i class="fa-solid fa-phone  fa-xl" style="color: #5488e3;"></i><p>+97845993498975</p>
+        <i class="fa-solid fa-phone  fa-xl" style="color: rgb(84, 136, 227);"></i><p>+97845993498975</p>
       </div>
       <div>
         <i class="fa-brands fa-whatsapp fa-xl"style="color: #5488e3;"></i>
@@ -128,10 +177,8 @@
 
   </section>
   
-  <footer class="p-10 footer">
-    <div class="row">
-      
-    </div>
+  <footer class="footer bg-dark text-center p-2">
+    <span class="text-light ">Copyright@laundry-website-All Rights Reserved</span>
   </footer>
 
   

@@ -3,28 +3,41 @@ html{
 }
 
 #calltoaction{
-  background: rgba(0, 0, 0, 0.5) url('files/washing clothes.png') ;
+  background: rgba(0, 0, 0, 0.5) url('files/washing-clothes.png') ;
   background-size: cover;
   background-blend-mode: darken;
+  height: 400px;
+  /* width: 100%; */
 }
 
 
 .pricing{
   display: flex;
-  flex-wrap: wrap;
   align-items: baseline;
   justify-content: center;
   flex-direction: row;
-  gap: 30px;
+  gap: 10px;
 }
 
 #p1, #p2, #p3{
-  width: 300px;
+  width: 25%;
+  background-color: rgb(13 110 253);
+  color: black;
   /* height: 300px; */
 }
 
 #p1:hover, #p2:hover, #p3:hover{
   transform: scale(1.1);
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.p-btn{
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -33,11 +46,9 @@ html{
   justify-content: center;
 }
 
-footer{
-  background-color: black;
-  
-}
 
-@media screen and (width<=600px) {
-  
-}
+
+
+
+
+

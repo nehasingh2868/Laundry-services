@@ -1,0 +1,34 @@
+@media screen and (width<=910px) {
+  #p1, #p2, #p3{
+    width: 55%;
+    /* height: 300px; */
+  }
+  #f1, #f2, #f3{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+@media screen and (width<=600px){
+  #p1, #p2, #p3{
+    width: 65%;
+    /* height: 300px; */
+  }
+  .pricing{
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (width=425px){
+  #calltoaction{
+    height: 350px;
+  }
+  }
