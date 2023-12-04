@@ -1,2 +1,2 @@
 # Laundry-services-website
-Created a responsive website for laundry services using HTML, Bootstrap, CSS and Javascript.
+Created a sample responsive website for laundry services using HTML, Bootstrap, CSS and Javascript.
