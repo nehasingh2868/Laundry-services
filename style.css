@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 200px;
 }
 
 #calltoaction{
@@ -21,7 +22,7 @@ html{
 
 #p1, #p2, #p3{
   width: 25%;
-  background-color: rgb(13 110 253);
+  background-color: #ffffff;
   color: black;
   /* height: 300px; */
 }
@@ -29,15 +30,18 @@ html{
 #p1:hover, #p2:hover, #p3:hover{
   transform: scale(1.1);
   color: black;
-  background-color: rgb(255, 255, 255);
 }
 
 .p-btn{
   border: none;
   border-radius: 8px;
   padding: 8px;
-  background: rgb(0, 0, 0);
+  background: #0d6efd;
   color: rgb(255, 255, 255);
+}
+
+.p-btn:hover{
+  background-color: #0b5ed7;
 }
 
 
@@ -47,6 +51,10 @@ html{
 }
 
 
+.c-bg{
+  background-color: rgba(126, 124, 124, 0.5);
+  padding: 20px;
+}
 
 
 
